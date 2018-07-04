@@ -12,6 +12,7 @@ let package = Package(
     targets: [
         .target(
             name: "ZeroMQ",
-            dependencies: ["CZeroMQ"]),
+            dependencies: ["CZeroMQ"],
+            path: "."),
     ]
 )
