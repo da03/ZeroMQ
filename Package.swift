@@ -8,10 +8,10 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/da03/CZeroMQ.git", .branch("master")),
-    ]
+    ],
     targets: [
         .target(
             name: "ZeroMQ",
             dependencies: []),
-]
+    ]
 )
